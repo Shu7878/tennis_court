@@ -50,6 +50,6 @@
 			</c:forEach>
 		</table>
 		</c:if>
-
+	<p><a href="InsertCourt">コートを追加したい場合はコチラから</a></p>
 </body>
 </html>
