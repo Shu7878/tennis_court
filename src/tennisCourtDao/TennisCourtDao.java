@@ -17,8 +17,8 @@ public class TennisCourtDao {
 	//データベースとの接続をおこなう
 	public TennisCourtDao() throws SQLException{
 		String url = "jdbc:mysql://localhost:3306/tennis_court";
-		String user = "Shu Sagara";
-		String password = "";
+		String user = "********";
+		String password = "********";
 		connection = DriverManager.getConnection(url, user, password);
 	}
 
